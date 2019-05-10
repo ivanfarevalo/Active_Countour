@@ -1,9 +1,9 @@
-#Active Contour
+# Active Contour
 
-####Objective:
+#### Objective:
 Implement a lip tracking program using the Snake or flexible template.
 
-####Program Goals:
+#### Program Goals:
 Be able to track the mouth motion with the following deformation and change:
 - Talking
 - Laughing, fawning and other common expressions
@@ -11,7 +11,7 @@ Be able to track the mouth motion with the following deformation and change:
 - Slight rotation and translation of the head
 - Slight change in the environmental illumination
 
-####How to Run:
+#### How to Run:
 ``python3 prog2.py -d directory_name -r root_name -idx1 first_index -idx2 second_index -t lip_template``
 
 This program accepts four arguments: (directory, root, idx1, idx2, lip_template). “directory”
